@@ -150,7 +150,7 @@
 				this.asideCollapseToggle()
 			},
 			goHome() {
-				this.$router.push({ path: '/index' })
+				this.$router.push({ path: '/' })
 			},
 		}
 	}

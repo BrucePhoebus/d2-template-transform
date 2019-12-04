@@ -11,18 +11,9 @@ const _import = require('@/libs/util.import.' + process.env.NODE_ENV)
 const frameIn = [
   {
     path: '/',
-    redirect: { name: 'index' },
+    redirect: { name: 'demo-1' },
     component: layoutHeaderAside,
     children: [
-      // 首页
-      {
-        path: 'index',
-        name: 'index',
-        meta: {
-          title: '首页',
-        },
-        component: _import('system/index')
-      },
       // 系统 前端日志
       {
         path: 'log',

@@ -56,7 +56,7 @@ export default {
         // 处理数据
         state.opened = value.map(opened => {
           // 忽略首页
-          if (opened.fullPath === '/index') {
+          if (opened.fullPath === '/') {
             valid.push(1)
             return opened
           }
