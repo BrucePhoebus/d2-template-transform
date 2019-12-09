@@ -23,7 +23,7 @@ const mode = process.env.NODE_ENV === 'production' ? 'history' : 'hash'
 
 // 导出路由 在 main.js 里使用
 const router = new VueRouter({
-	base: "/gxjx/",
+	base: "/d2-template/",
 	mode: mode,
 	routes
 })
